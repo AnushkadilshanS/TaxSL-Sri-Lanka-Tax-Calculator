@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaxSL - Sri Lanka Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TaxSL: Sri Lanka Tax Calculator</h1>
+        </header>
+        <main>
+            <aside class="sidebar">
+                <h2>Tax Rules & Regulations</h2>
+                <ul>
+                    <li>No tax for annual income up to LKR 300,000.</li>
+                    <li>6% tax for income between LKR 300,001 - 500,000.</li>
+                    <li>12% tax for income between LKR 500,001 - 1,000,000.</li>
+                    <li>18% tax for income above LKR 1,000,000.</li>
+                    <li>Ensure to include all taxable allowances.</li>
+                </ul>
+            </aside>
+            <section class="content">
+                <form id="taxForm">
+                    <label for="income">Annual Income (LKR):</label>
+                    <input type="number" id="income" name="income" required>
+
+                    <label for="deductions">Deductions (LKR):</label>
+                    <input type="number" id="deductions" name="deductions" required>
+
+                    <button type="button" onclick="calculateTax()">Calculate</button>
+                </form>
+
+                <div id="result" class="result">
+                    <h2>Tax Calculation Result</h2>
+                    <p id="taxOutput"></p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
