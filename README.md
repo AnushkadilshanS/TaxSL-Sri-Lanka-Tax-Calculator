@@ -11,10 +11,6 @@ JavaScript
 Installation
 Clone this repository:
 
-bash
-Copy code
-[(https://github.com/AnushkadilshanS/TaxSL-Sri-Lanka-Tax-Calculator/edit/main/README.md)](https://github.com/AnushkadilshanS/TaxSL-Sri-Lanka-Tax-Calculator/edit/main/README.md)
-Open the project folder in your preferred code editor.
 
 Launch the index.html file in your browser to use the tax calculator.
 
